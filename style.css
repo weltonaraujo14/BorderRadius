@@ -1,0 +1,49 @@
+body{
+    background-color: #ffbf0f;
+    text-align: center;
+}
+h1{
+    text-shadow: 3px 3px 3px white;
+}
+#area{
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    height: 350px;
+    background-color: #ffd970;
+}
+.superior-esquerdo{
+    width: 50px;
+    position: absolute;
+    top: 82px;
+    left: 300px;
+}
+.inferior-esquerdo{
+    width: 50px;
+    position: absolute;
+    top: 410px;
+    left: 300px; 
+}
+.superior-direito{
+    width: 50px;
+    position: absolute;
+    top: 82px;
+    left: 1014px;
+}
+.inferior-direito{
+    width: 50px;
+    position: absolute;
+    top: 410px;
+    left: 1014px; 
+}
+#css{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    text-align: justify;
+
+}
+.gerar{
+    width: 100px;
+    font-weight: 800;
+}

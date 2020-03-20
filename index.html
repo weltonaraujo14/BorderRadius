@@ -11,16 +11,15 @@
 <body>
     <h1>Gerador de Border-Radius</h1>
 
-    <input type="text" class="superior-esquerdo">
-    <input type="text" class="inferior-esquerdo">
-    <input type="text" class="superior-direito">
-    <input type="text" class="inferior-direito">
+    <input type="text" class="superior-esquerdo" onblur="gerar()">
+    <input type="text" class="inferior-esquerdo" onblur="gerar()">
+    <input type="text" class="superior-direito" onblur="gerar()">
+    <input type="text" class="inferior-direito" onblur="gerar()">
 
     <div id="area">
-        <p id='css'></p>
+        <p id='css' class='css'></p>
     </div>
     <br>
-    <input type="button" value="Gerar" onclick="gerar()" class="gerar">
 
 
     <script src="script.js"></script>

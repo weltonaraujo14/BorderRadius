@@ -11,6 +11,8 @@ h1{
     width: 600px;
     height: 350px;
     background-color: #ffd970;
+    box-shadow: 5px 5px 5px black;
+    border: solid 1px black;
 }
 .superior-esquerdo{
     width: 50px;
@@ -37,12 +39,23 @@ h1{
     left: 1014px; 
 }
 #css{
+    visibility: hidden;
+    width: 350px;
+    height: 200px;
     position: absolute;
     top: 25%;
     left: 42%;
     text-align: justify;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    padding: 14px;
+    font-weight: 900;
 
 }
+#css.visivel{
+    visibility: visible;
+}
+
 .gerar{
     width: 100px;
     font-weight: 800;

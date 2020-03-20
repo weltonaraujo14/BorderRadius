@@ -7,7 +7,6 @@ function gerar() {
 
     let css = $('#css');
 
-
     let superiorEsquerdo = $('.superior-esquerdo');
 
     let inferiorEsquerdo = $('.inferior-esquerdo');
@@ -25,11 +24,13 @@ function gerar() {
     area.style.borderTopRightRadius = `${superiorDireito.value}px`;
     area.style.borderBottomRightRadius = `${inferiorDireito.value}px`;
 
-    css.innerHTML = `seletor-css<br>{<br>
-                     border-top-left-radius: ${superiorEsquerdo.value}px;<br>
-                     border-bottom-left-radius: ${inferiorEsquerdo.value}px;<br>
-                     border-top-right-radius: ${superiorDireito.value}px;<br>
-                     border-bottom-right-radius: ${inferiorDireito.value}px;<br>}`
+    css.classList.add('visivel');
+    css.innerHTML = `Seletor-CSS<br>{<br>
+                     ⠀⠀Border-Top-Left-Radius: ${superiorEsquerdo.value}px;<br>
+                     ⠀⠀Border-Bottom-Left-Radius: ${inferiorEsquerdo.value}px;<br>
+                     ⠀⠀Border-Top-Right-Radius: ${superiorDireito.value}px;<br>
+                     ⠀⠀Border-Bottom-Right-Radius: ${inferiorDireito.value}px;<br>}`
  
-                    }   
+                    } 
+ 
 }
